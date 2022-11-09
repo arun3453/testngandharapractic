@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AutomationSuite]">
+  <test thread-count="5" name=" sanityTest(failed)">
+    <classes>
+      <class name="day_1.croma">
+        <methods>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- day_1.croma -->
+      <class name="day_2.extenddemo">
+        <methods>
+          <include name="contindoce"/>
+          <include name="endrep"/>
+          <include name="startrep"/>
+        </methods>
+      </class> <!-- day_2.extenddemo -->
+    </classes>
+  </test> <!--  sanityTest(failed) -->
+</suite> <!-- Failed suite [AutomationSuite] -->
