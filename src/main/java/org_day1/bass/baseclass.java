@@ -31,7 +31,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
 
 import com.aventstack.extentreports.ExtentReports;
@@ -87,6 +89,12 @@ public class baseclass {
 		driver.manage().window().maximize();
 
 	}
+	//explemencuwait
+		public static boolean expwit(long sec,String urlcont) {
+			WebDriverWait w=new WebDriverWait(driver, sec);
+			return w.until(ExpectedConditions.urlContains(urlcont));
+
+		}
 	//get
 	public static void get(String url) {
 		driver.get(url);
@@ -344,6 +352,7 @@ public class baseclass {
 
 		driver.switchTo().window(li.get(index));
 	}
+	
 	//getexeldata
 	public static void exeal(String filname,int ro,String fname,int co) throws IOException {
 

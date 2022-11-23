@@ -1,4 +1,4 @@
-package day_1;
+package day_2;
 
 import org.testng.ITestResult;
 

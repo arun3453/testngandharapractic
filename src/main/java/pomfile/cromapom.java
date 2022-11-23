@@ -24,6 +24,7 @@ public class cromapom extends baseclass {
 	private WebElement gototelevision;
 	@FindBy(xpath="(//h5[text()='LED TVs'])[1]")
 	private WebElement gotoledtv2;
+	
 	@FindBy(xpath="(//h6[text()='QLED TVs'])[1]")
 	private WebElement gotoQleedtv;
 	@FindBy(xpath="//a[text()='Top Brands']")
@@ -33,7 +34,14 @@ public class cromapom extends baseclass {
 	@FindBy(xpath="//*[@id=\"panel0bh-content\"]/div/p/div/ul/li[1]/div/label/span[2]")
 	private WebElement gocheckbox;
 	
-
+    @FindBy(xpath="(//span[@class='text'])[3]")
+	private WebElement clk1;
+    @FindBy(xpath="(//span[@class='text'])[4]")
+	private WebElement clk2;
+    @FindBy(xpath="(//span[@class='text'])[5]")
+	private WebElement clk3;
+    @FindBy(xpath="(//span[@class='text'])[6]")
+	private WebElement clk4;
 	
 	
 	@FindBy(xpath="//input[contains(@class,'MuiAutocomplete-input MuiAutocomplete')]")
@@ -80,6 +88,21 @@ public class cromapom extends baseclass {
 		Thread.sleep(2000);
 		up(goup);
 		
+	}
+	
+	public void getClk1() {
+		clk1.click();
+		
+	}
+	public void getClk2() {
+		clk2.click();
+		
+	}
+	public void getClk3() {
+		clk3.click();
+	}
+	public void getClk4() {
+		clk4.click();
 	}
 
 	public void getserch() throws InterruptedException {

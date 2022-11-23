@@ -1,59 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="50691" started-at="2022-11-09T10:43:34Z" finished-at="2022-11-09T10:44:25Z">
+  <suite name="Default suite" duration-ms="19531" started-at="2022-11-12T10:45:52Z" finished-at="2022-11-12T10:46:11Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="50691" started-at="2022-11-09T10:43:34Z" finished-at="2022-11-09T10:44:25Z">
+    <test name="Default test" duration-ms="19531" started-at="2022-11-12T10:45:52Z" finished-at="2022-11-12T10:46:11Z">
       <class name="day_1.croma">
-        <test-method status="PASS" signature="befclass()[pri:0, instance:day_1.croma@7085bdee]" name="befclass" is-config="true" duration-ms="3081" started-at="2022-11-09T10:43:35Z" finished-at="2022-11-09T10:43:38Z">
+        <test-method status="PASS" signature="befclass()[pri:0, instance:day_1.croma@73ad2d6]" name="befclass" is-config="true" duration-ms="4253" started-at="2022-11-12T10:45:52Z" finished-at="2022-11-12T10:45:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- befclass -->
-        <test-method status="PASS" signature="befmet()[pri:0, instance:day_1.croma@7085bdee]" name="befmet" is-config="true" duration-ms="0" started-at="2022-11-09T10:43:38Z" finished-at="2022-11-09T10:43:38Z">
+        <test-method status="PASS" signature="befmet()[pri:0, instance:day_1.croma@73ad2d6]" name="befmet" is-config="true" duration-ms="2" started-at="2022-11-12T10:45:56Z" finished-at="2022-11-12T10:45:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- befmet -->
-        <test-method status="PASS" signature="test1()[pri:1, instance:day_1.croma@7085bdee]" name="test1" duration-ms="19825" started-at="2022-11-09T10:43:38Z" finished-at="2022-11-09T10:43:58Z">
+        <test-method status="PASS" signature="test1()[pri:1, instance:day_1.croma@73ad2d6]" name="test1" duration-ms="15227" started-at="2022-11-12T10:45:56Z" finished-at="2022-11-12T10:46:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="aftmet(org.testng.ITestResult)[pri:0, instance:day_1.croma@7085bdee]" name="aftmet" is-config="true" duration-ms="5" started-at="2022-11-09T10:43:58Z" finished-at="2022-11-09T10:43:58Z">
+        <test-method status="PASS" signature="aftmet(org.testng.ITestResult)[pri:0, instance:day_1.croma@73ad2d6]" name="aftmet" is-config="true" duration-ms="10" started-at="2022-11-12T10:46:11Z" finished-at="2022-11-12T10:46:11Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test1 status=SUCCESS method=croma.test1()[pri:1, instance:day_1.croma@7085bdee] output={null}]]]>
+                <![CDATA[[TestResult name=test1 status=SUCCESS method=croma.test1()[pri:1, instance:day_1.croma@73ad2d6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftmet -->
-        <test-method status="PASS" signature="befmet()[pri:0, instance:day_1.croma@7085bdee]" name="befmet" is-config="true" duration-ms="1" started-at="2022-11-09T10:43:58Z" finished-at="2022-11-09T10:43:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- befmet -->
-        <test-method status="PASS" signature="test2()[pri:2, instance:day_1.croma@7085bdee]" name="test2" duration-ms="26057" started-at="2022-11-09T10:43:58Z" finished-at="2022-11-09T10:44:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="aftcl()[pri:0, instance:day_1.croma@7085bdee]" name="aftcl" is-config="true" duration-ms="971" started-at="2022-11-09T10:44:24Z" finished-at="2022-11-09T10:44:25Z">
+        <test-method status="PASS" signature="aftcl()[pri:0, instance:day_1.croma@73ad2d6]" name="aftcl" is-config="true" duration-ms="0" started-at="2022-11-12T10:46:11Z" finished-at="2022-11-12T10:46:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftcl -->
-        <test-method status="PASS" signature="aftmet(org.testng.ITestResult)[pri:0, instance:day_1.croma@7085bdee]" name="aftmet" is-config="true" duration-ms="0" started-at="2022-11-09T10:44:24Z" finished-at="2022-11-09T10:44:24Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=test2 status=SUCCESS method=croma.test2()[pri:2, instance:day_1.croma@7085bdee] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftmet -->
       </class> <!-- day_1.croma -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

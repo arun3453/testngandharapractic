@@ -27,7 +27,7 @@ public class croma extends baseclass {
 	}
 	@AfterClass
 	private void aftcl() {
-		quit();
+	//	quit();
 
 	}
 
@@ -54,8 +54,12 @@ public class croma extends baseclass {
 		c.getGodown();
 		c.getGoup();
 		c.getGocheckbox();
+		c.getClk1();
+		c.getClk2();
+		c.getClk3();
+		c.getClk4();
 	}
-	@Test(priority=2)
+	@Test(priority=2,invocationCount=0)
 	private void test2() throws InterruptedException {
 		cromapom c=new cromapom();
 		c.getserch();
